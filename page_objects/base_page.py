@@ -41,10 +41,6 @@ class BasePage:
     def switch_to_new_window(self):
         return self.driver.switch_to.window(self.driver.window_handles[-1])
 
-    @allure.step('Удаление элемента с куками')
-    def delete_element_cookie(self):
-        self.driver.execute_script('document.getElementsByClassName("App_CookieConsent__1yUIN")[0].remove();')
-
     @allure.step('Задать формат для локаторов')
     def format_locators(self, locator_question, number):
         method, locator = locator_question
