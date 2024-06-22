@@ -1,4 +1,3 @@
-import time
 from locators.dzen_page_locators import DzenPageLocators
 from page_objects.base_page import BasePage
 

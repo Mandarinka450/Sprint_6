@@ -1,5 +1,3 @@
-import time
-
 from locators.base_page_locators import BasePageLocators
 from locators.scooter_page_locators import ScooterPageLocators
 from page_objects.base_page import BasePage

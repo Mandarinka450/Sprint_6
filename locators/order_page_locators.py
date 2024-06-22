@@ -20,7 +20,7 @@ class OrderPageLocators:
     COMMENT = (By.XPATH, './/input[@placeholder= "Комментарий для курьера"]') # инпут с вводом комментария
     BUTTON_ORDER = (By.XPATH, './/div[@class="Order_Buttons__1xGrp"]/button[contains(text(), "Заказать")]')  # кнопка Заказать
     BUTTON_YES = (By.XPATH, './/button[contains(text(), "Да")]')  # кнопка Да
-    SUCCESS_OREDER_TEXT = (By.XPATH, './/div[contains(text(), "Заказ оформлен")]') # текст успешного заказа
+    SUCCESS_OREDER_MODAL = (By.XPATH, './/div[@class="Order_Modal__YZ-d3"]') # модальное окно с сообщением об успешном заказе
 
 
 
