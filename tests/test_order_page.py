@@ -26,4 +26,4 @@ class TestsCreateOrder:
         order_page.complete_form_renta_of_scooter_fields(comment)
         order_page.confirm_order()
         visible_modal_window = order_page.check_visible_window_completed_order()
-        assert visible_modal_window == True
+        assert visible_modal_window is True
